@@ -15,7 +15,7 @@ def load_data(url):
     df = pd.read_csv(url)
 
     return df
-df = load_data(r"D:\csv files\hello csv\bangalore.csv")
+df = load_data(r"C:\Users\rumma\PycharmProjects\pythonProject15\bangalore.csv")
 
 
 
