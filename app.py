@@ -24,6 +24,6 @@ def display(con):
     with open(con,"r") as f:
         file = f.read()
     return file
-file = display(r"C:\Users\rumma\Desktop\config.json")
+file = display(r"C:\Users\rumma\PycharmProjects\pythonProject15\config.json")
 pyg.walk(df,env="Streamlit",spec=file,dark="light")
 
