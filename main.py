@@ -15,7 +15,7 @@ def load_data(url):
     df = pd.read_csv(url)
 
     return df
-df = load_data(r"C:\Users\rumma\PycharmProjects\pythonProject15\bangalore.csv")
+df = load_data("C:\Users\rumma\PycharmProjects\pythonProject15\bangalore.csv")
 
 
 
@@ -24,6 +24,6 @@ def display(con):
     with open(con,"r") as f:
         file = f.read()
     return file
-file = display(r"C:\Users\rumma\Desktop\config.json")
+file = display("C:\Users\rumma\Desktop\config.json")
 pyg.walk(df,env="Streamlit",spec=file,dark="light")
 
